@@ -1,0 +1,12 @@
+.DS_Store
+*.o
+*.out
+*.a
+*.so
+*.dylib
+*.pyc
+__pycache__/
+build/
+cmake-build-*/
+.vscode/
+.idea/
