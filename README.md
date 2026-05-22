@@ -36,16 +36,6 @@ These examples rely on the `cellGPU` codebase developed by Daniel Sussman, toget
 
 These files are **not expected to compile as-is** against a clean upstream `cellGPU` installation, because they assume project-specific extensions to the vertex-model codebase. They should therefore be viewed as example implementations that can be incorporated into an existing `cellGPU`-based workflow.
 
-## What is project-specific here?
-
-In addition to standard `cellGPU` functionality, these examples assume access to local extensions such as:
-
-- active edge-tension fields,
-- edge-based observables (length, angle, passive tension, susceptibility),
-- local tension-remodeling routines,
-- T1-reset conventions used in this project,
-- box-strain degrees of freedom for quasistatic pure-shear minimization.
-
 ## Notes
 
 - The code is intentionally simplified and shortened to highlight the main algorithmic ideas.
